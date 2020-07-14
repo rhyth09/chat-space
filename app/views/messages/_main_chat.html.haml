@@ -1,0 +1,27 @@
+.chat-main
+  .group-info
+    .left-content
+      .group-name
+        test6
+      .member-name
+        Member：
+    .right-content
+      = link_to "#", class: "#" do
+        Edit
+  .message-list
+    .message-box
+      .message-info
+        .user-name
+          rhyth09
+        .date
+          2019/11/20
+      .text
+        
+  .form
+    %form.new-message
+      .input-box
+        %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+        %label{class: "input-box__image"}
+          = icon('far', 'image')
+          %input{type:"file", class: "input-box__image__file"}
+      %input{type: "submit",value:"Send",class: "submit-btn"}
