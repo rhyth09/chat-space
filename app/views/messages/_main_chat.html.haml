@@ -1,20 +1,21 @@
 .chat-main
   .group-info
     .left-content
-      .group-name
-        test6
-      .member-name
-        Member：
+      .left-content__group-name
+        
+      %ul.member-list
+        %li.member-logo Member：
+        %li.member-name 
     .right-content
       = link_to "#", class: "#" do
         Edit
   .message-list
     .message-box
       .message-info
-        .user-name
-          rhyth09
-        .date
-          2019/11/20
+        .message-list__message-box__message-info__user-name
+          
+        .message-list__message-box__message-info__date
+          
       .text
         
   .form
