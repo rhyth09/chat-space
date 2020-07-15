@@ -42,14 +42,14 @@
     background-color:#2f3e51;
       .group-box {
         height:65px;
+        color:#ffffff;
+        text-decoration: none;
         &__group-name{
           font-size:15px;
-          color:#ffffff;
           padding:20px 20px 0px 20px;
         }
         &__group-message{
           font-size:11px;
-          color:#ffffff;
           padding:5px 20px 40px 20px;
         }
       }
