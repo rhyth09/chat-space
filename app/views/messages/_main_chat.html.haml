@@ -14,12 +14,12 @@
 
   .message-list
     = render @messages
-    .message-box 
-      .message-info
-        .user-name
-        .date
-      .text
-        %p.message__content
+    -# .message-box 
+    -#   .message-info
+    -#     .user-name
+    -#     .date
+    -#   .text
+    -#     %p.message__content
 
   .form
     = form_with model: [@group, @message], html: {class: "new-message"}, local: true do |f|
